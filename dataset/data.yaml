@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['ayam_goreng', 'ayam_suwir', 'jeruk', 'kacang_panjang', 'nasi', 'pisang', 'susu_kotak', 'tahu', 'telur_dadar', 'telur_orak_arik', 'wortel']
+
+roboflow:
+  workspace: helwyza
+  project: my-first-project-ek0ma
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/helwyza/my-first-project-ek0ma/dataset/1
